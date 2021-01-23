@@ -1,6 +1,6 @@
-# CRUD ASP.NET MVC 5 + EntityFramework (REST)
-## Гончаров Андрей, 181-321
-### Лаба 2 "Сервер" 
+# Notes web app. CRUD ASP.NET MVC 5 + EntityFramework (REST)
+## Гончаров Андрей, 181-321 (Goncharov Andrew)
+### Лаба 2 "Сервер" (Server)
 
 This webv app uses some nice techs like:
 <ul>
