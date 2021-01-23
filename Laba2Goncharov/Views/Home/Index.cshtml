@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Заметки";
+}
+
+<div class="jumbotron">
+    <h2>CRUD ASP.NET MVC 5 + EntityFramework (REST)</h2>
+    <p class="lead">Гончаров Андрей 181-321. Лаба 2 "Сервер". Веб-приложение "Заметки"</p>
+
+    <a href="/Home/Add" class="btn btn-success">Добавить новую заметку</a>
+</div>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Название</th>
+            <th scope="col">Добавлено</th>
+            <th scope="col">Зметка</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            foreach (Laba2Goncharov.Models.Note note in ViewBag.notesList)
+            {
+                <tr>
+                    <th scope="row">@note.Id</th>
+                    <td>@note.Caption</td>
+                    <td>@Convert.ToString(note.Added)</td>
+                    <td>@note.Text</td>
+                    <td><a href="/Home/Edit/@note.Id" class="btn btn-link">Редактировать</a></td>
+                    <td><a href="/Home/Delete/@note.Id" class="btn btn-danger">Удалить</a></td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
