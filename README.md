@@ -2,7 +2,7 @@
 ## Гончаров Андрей, 181-321 (Goncharov Andrew)
 ### Лаба 2 "Сервер"
 
-This web app uses some nice techs like:
+This web app uses some nice techs and langs like:
 <ul>
     <li>ASP.NET MVC 5</li>
     <li>EntityFramework</li>
