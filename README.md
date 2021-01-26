@@ -13,3 +13,6 @@ This web app uses some nice techs and langs like:
 </ul>
 
 To launch it just download and open it with VS. May be you will need to refresh Nuget Packs, but I'm not sure ;)
+
+<img src="Screenshot_50.png" />
+
