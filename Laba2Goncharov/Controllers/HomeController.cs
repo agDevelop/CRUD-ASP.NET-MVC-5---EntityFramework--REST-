@@ -44,20 +44,6 @@ namespace Laba2Goncharov.Controllers
             }
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "О лабе";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Контакты";
-
-            return View();
-        }
-
         [HttpGet]
         public ActionResult Add()
         {
@@ -101,6 +87,19 @@ namespace Laba2Goncharov.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        
+
+        public ActionResult About()
+        {
+            ViewBag.Message = "О лабе";
+
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Контакты";
+
+            return View();
+        }
     }
 }
