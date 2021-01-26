@@ -16,3 +16,8 @@ To launch it just download and open it with VS. May be you will need to refresh 
 
 <img src="Screenshot_50.png" />
 
+<img src="Screenshot_52.png" />
+
+<img src="Screenshot_53.png" />
+
+<img src="Screenshot_54.png" />
